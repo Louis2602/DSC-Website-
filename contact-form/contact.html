@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>Gửi ý kiến đóng góp và D<span style="color: red">S</span>C sẽ phản hồi trong 24h</header>
+        <form class="contact-form">
+            <div class="dbl-field">
+                <div class="field">
+                    <input type="text" class="name" placeholder="Họ và tên">
+                    <i class='fas fa-user'></i>
+                </div>
+                <div class="field">
+                    <input type="text" class="email" placeholder="Email">
+                    <i class='fas fa-envelope'></i>
+                </div>
+            </div>
+            <div class="dbl-field">
+                <div class="field">
+                    <input type="text" class="phone" placeholder="Số điện thoại">
+                    <i class='fas fa-phone-alt'></i>
+                </div>
+                <div class="field">
+                    <input type="text" class="id" placeholder="Nhập MSSV">
+                    <i class='fas fa-id-badge'></i>
+                </div>
+            </div>
+            <div class="message">
+                <textarea placeholder="Góp ý" class="feedback"></textarea>
+                <i class="material-icons">message</i>
+            </div>
+            <div class="button-area">
+                <button type="submit">Gửi đi</button>
+                <span></span>
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>
