@@ -352,11 +352,6 @@ p {
     z-index: -1;
 }
 
-#services .service-bottom .icon {
-    height: 80px;
-    width: 80px;
-    margin-bottom: 20px;
-}
 
 #services .mem-item h2 {
     font-size: 2rem;
@@ -368,6 +363,24 @@ p {
 #services .mem-item p {
     color: white;
     text-align: left;
+}
+
+#services .service-bottom .mem-item {
+    position: relative;
+    min-width: 320px;
+    height: 440px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+        inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+        5px 5px 15px rgba(0, 0, 0, 0.3),
+        -5px -5px 15px rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 30px;
+}
+
+#services .service-bottom .mem-item:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 40px 70px rgba(0, 0, 0, 0.5);
+    transition: transform 330ms ease-in-out;
 }
 
 /* End Services Section */
@@ -568,15 +581,24 @@ p {
 #contact .contact-bottom h2 {
     font-size: 30px;
     padding-top: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    color: #0D6EFD;
 }
 
 #contact .contact-bottom .cta {
     color: black;
-    margin-bottom: 50px;
-    padding: 10px 20px;
-    font-size: 2rem;
-    position: absolute;
-    margin-left: 30px;
+    padding: 20px 50px;
+    text-align: center;
+    position: flex;
+}
+
+#contact .contact-bottom a {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /*End contact Section */
@@ -703,6 +725,7 @@ p {
         max-width: 100%;
         max-height: 100%;
     }
+
 
     /* End Services Section */
 
@@ -832,6 +855,7 @@ p {
     #header .nav-list ul a:after {
         display: none;
     }
+
 
     /* End header */
 

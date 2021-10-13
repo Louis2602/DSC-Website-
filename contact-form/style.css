@@ -12,7 +12,8 @@ body {
     display: flex;
     padding: 0 10px;
     min-height: 100vh;
-    background: #0D6EFD;
+    background-image: url("D:\\1_HCMUS\\KỸ NĂNG MỀM\\DSC\\img\\hero-bg.png");
+    /*background: #0D6EFD;*/
     align-items: center;
     justify-content: center;
 }
@@ -34,6 +35,7 @@ body {
     font-weight: 600;
     padding: 20px 30px;
     border-bottom: 1px solid #ccc;
+    text-align: center;
 }
 
 .wrapper form {
