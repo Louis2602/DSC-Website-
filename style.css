@@ -358,11 +358,14 @@ p {
     color: white;
     margin-bottom: 10px;
     text-transform: uppercase;
+    display: block;
+    margin: auto;
 }
 
 #services .mem-item p {
     color: white;
     text-align: left;
+    font-size: 14px;
 }
 
 #services .service-bottom .mem-item {
@@ -383,7 +386,51 @@ p {
     transition: transform 330ms ease-in-out;
 }
 
+#services .service-bottom .mem-item .btn {
+    padding: 12px 20px;
+    background: #42aaf5;
+    color: #f7fcff;
+    border-radius: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in;
+}
+
+#services .service-bottom .mem-item a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 13px;
+}
+
+#services .service-bottom .mem-item .btn:hover {
+    background: transparent;
+    color: #42aaf5;
+    border: 2px solid #42aaf5;
+}
+
+#services .service-bottom .mem-item .mem-img img {
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    position: ;
+    margin-top: 20px;
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    border-radius: 100px;
+    border: 10px solid #fff;
+    transition-duration: 0.4s;
+    transition-property: transform;
+    margin-bottom: 20px;
+}
+
+#services .service-bottom .mem-item .mem-img img:hover {
+    transform: scale(1.1);
+}
+
 /* End Services Section */
+
 
 /* Projects section */
 #projects .projects {

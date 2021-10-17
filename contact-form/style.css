@@ -12,7 +12,8 @@ body {
     display: flex;
     padding: 0 10px;
     min-height: 100vh;
-    background-image: url("D:\\1_HCMUS\\KỸ NĂNG MỀM\\DSC\\img\\hero-bg.png");
+    background-image: url('cta-bg.jpg');
+    background-size: cover;
     /*background: #0D6EFD;*/
     align-items: center;
     justify-content: center;
