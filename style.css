@@ -82,6 +82,13 @@ p {
     color: crimson;
 }
 
+.brand h1 img {
+    vertical-align: top;
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
 /* Header section */
 #header {
     position: fixed;
@@ -228,7 +235,7 @@ p {
 
 /* Hero Section */
 #hero {
-    background-image: url(./img/hero-bg.png);
+    background-image: url(./img/bg-animation.gif);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -287,6 +294,7 @@ p {
     animation: text_reveal_box 1s ease;
     animation-delay: .5s;
 }
+
 
 #hero h1:nth-child(1) span {
     animation-delay: .5s;
