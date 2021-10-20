@@ -452,11 +452,32 @@ p {
     margin-bottom: 50px;
 }
 
+#projects .projects-header .contract-title {
+    text-align: center;
+    font-size: 4rem;
+    color: #039ae5;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#projects .projects-header .contract-pdf {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
 #projects .all-projects {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+#projects .all-projects .project-title {
+    text-align: center;
+    font-size: 4rem;
+    color: #039ae5;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
 
 #projects .project-item {
