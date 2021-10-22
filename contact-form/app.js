@@ -49,7 +49,6 @@ form.onsubmit = (e) => {
     sendEmail(name, email, id, phone, message);
 }
 
-// Send email
 function validateEmail(email) {
     const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
@@ -74,7 +73,6 @@ function validName(name) {
     else return false;
 }
 
-
 function sendEmail(name, email, id, phone, message) {
     if (name.length != 0 && email.length != 0 && id.length == 8 && phone.length == 10 && message.length != 0) {
         if (!onlyDigits(id)) {
@@ -90,6 +88,7 @@ function sendEmail(name, email, id, phone, message) {
             statusTxt.style.color = "red";
             form.classList.add("enabled");
         } else if (validateEmail(email)) {
+            form.classList.add("disabled");
             Email.send({
                 Host: "smtp.gmail.com",
                 Username: "razorvandal2003@gmail.com",

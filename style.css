@@ -421,7 +421,7 @@ p {
     z-index: 1;
     width: 150px;
     height: 150px;
-    position: ;
+    position: flex;
     margin-top: 20px;
     display: block;
     margin-left: 50px;
