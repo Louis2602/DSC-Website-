@@ -330,6 +330,7 @@ p {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
+    flex-flow: row wrap;
 }
 
 #services .mem-item {
@@ -462,6 +463,7 @@ p {
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 0;
+
 }
 
 #projects .projects-header h1 {
