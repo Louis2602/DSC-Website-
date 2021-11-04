@@ -328,9 +328,11 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-flow: row wrap;
     flex-wrap: wrap;
     margin-top: 50px;
-    flex-flow: row wrap;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 #services .mem-item {
