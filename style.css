@@ -510,6 +510,7 @@ p {
     margin: 20px auto;
     overflow: hidden;
     border-radius: 10px;
+    height: 1000px;
 }
 
 #projects .project-info {
@@ -539,14 +540,23 @@ p {
     color: white;
 }
 
-#projects .project-img {
+#projects .all-projects embed {
+    position: relative;
+    width: 100%;
+    top: 0;
+    height: 500px;
+    flex-basis: 50%;
+}
+
+/* Image for projects but has been replaced by pdf files */
+/*#projects .project-img {
     flex-basis: 50%;
     height: 300px;
     overflow: hidden;
     position: relative;
-}
+}*/
 
-#projects .project-img:after {
+/*#projects .project-img:after {
     content: '';
     position: absolute;
     left: 0;
@@ -563,7 +573,7 @@ p {
 
 #projects .project-item:hover .project-img img {
     transform: scale(1.1);
-}
+}*/
 
 /* End Projects section */
 
@@ -843,10 +853,6 @@ p {
     }
 
     #projects .all-projects .project-info {
-        height: 100%;
-    }
-
-    #projects .all-projects .project-img {
         height: 100%;
     }
 
