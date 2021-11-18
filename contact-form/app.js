@@ -91,9 +91,9 @@ function sendEmail(name, email, id, phone, message) {
             form.classList.add("disabled");
             Email.send({
                 Host: "smtp.gmail.com",
-                Username: "razorvandal2003@gmail.com",
-                Password: "mahtdckthqbggbvj",
-                To: 'razorvandal2003@gmail.com',
+                Username: "dscteamus@gmail.com",
+                Password: "dscteamhcmus",
+                To: 'dscteamus@gmail.com',
                 From: email,
                 Subject: name + " sent you a message",
                 Body: "<b>Họ và tên: </b>" + name + "<br>" + "<b>MSSV: </b>" + id + "<br>" +
